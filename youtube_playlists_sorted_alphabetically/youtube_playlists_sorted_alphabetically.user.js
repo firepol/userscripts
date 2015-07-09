@@ -6,7 +6,7 @@
 // @homepage       http://www.pbworks.net
 // @copyright      2012+, Paolo Brocco (http://www.pbworks.net)
 // @license        GPL version 3 or any later version; http://www.gnu.org/copyleft/gpl.html
-// @version        2014.12.02
+// @version        2015.07.09
 // @include        http://www.youtube.com/*
 // @include        https://www.youtube.com/*
 // @uso:script     123272
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //here begins everything
 
     //This is the "Add to" button
-    document.querySelector('#watch8-secondary-actions > div.yt-uix-menu.yt-uix-videoactionmenu > div > span > button').setAttribute('onclick', ';initSortLists();return false;');
+    document.querySelector('#watch8-secondary-actions > div.yt-uix-menu.yt-uix-videoactionmenu > button').setAttribute('onclick', ';initSortLists();return false;');
 }, false);
 
 /*** INIT FUNCTIONS: logic to decide when to activate the sorting ***/
